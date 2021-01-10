@@ -13,9 +13,9 @@ BAGI YANG NANYA2 MASANG APIKEY DIMANA??
 BACA README NYA, PERCUMA W BUAT README
 
 INGAT JANGAN JUAL SCRIPT ELAINA KEPADA ORANG LAIN!
-INGIN PREMIUM? CHAT TOBZ!
+INGIN PREMIUM? CHAT F3RD!
 
-ELAINA BOT V3
+F3RD BOT V3
 */
 require('dotenv').config()
 const { decryptMedia } = require('@open-wa/wa-decrypt')
@@ -206,7 +206,7 @@ module.exports = tobz = async (tobz, message) => {
 
         const serial = sender.id
         const isAdmin = adminNumber.includes(sender.id)
-        const ownerNumber = '6281311850715@c.us'
+        const ownerNumber = '6282169369877@c.us'
         const isOwner = ownerNumber.includes(sender.id)
 
         if (isGroupMsg && GroupLinkDetector && !isGroupAdmins && !isAdmin && !isOwner){
